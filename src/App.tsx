@@ -14,16 +14,16 @@ function App() {
 
   return (
     <div className="App">
-      {categories.map((category) => (
-        <button key={category} onClick={() => filterFoodByCategory(category)}>
-          {category}
-        </button>
-      ))}
-      <button onClick={() => setFood(AllFoods)}>
-        Todos os pratos
-      </button>
+      <h1>Aplicativo - Filtro de Comida</h1>
+      <div className="box-button">
+        {categories.map((category) => (
+          <button key={category} onClick={() => filterFoodByCategory(category)}>
+            {category}
+          </button>
+        ))}
+        <button onClick={() => setFood(AllFoods)}>Todos os pratos</button>
+      </div>
       <div>
-        <h1>Aplicativo - Filtro de Comida</h1>
         <Card food={food} />
       </div>
     </div>

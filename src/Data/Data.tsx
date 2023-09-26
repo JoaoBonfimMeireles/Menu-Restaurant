@@ -13,7 +13,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Pizza Margherita",
     category: "Pizza e Hamburguer",
     price: 12.99,
-    img: "pizza-margherita.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Pizza%20Margherita.jpg?raw=true",
     description:
       "Uma pizza clássica italiana com molho de tomate, mussarela, manjericão e azeite de oliva.",
   },
@@ -22,7 +22,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Hambúrguer Clássico",
     category: "Pizza e Hamburguer",
     price: 9.99,
-    img: "hamburguer-classico.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Hamb%C3%BArguer%20Cl%C3%A1ssico.jpg?raw=true",
     description:
       "Um suculento hambúrguer de carne bovina com alface, tomate, queijo cheddar e molho especial.",
   },
@@ -31,7 +31,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Massa à Carbonara",
     category: "Massas",
     price: 10.99,
-    img: "massa-carbonara.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Massa%20%C3%A0%20Carbonara.jpg?raw=true",
     description:
       "Espaguete cozido al dente com molho à base de ovos, queijo parmesão, pancetta e pimenta preta.",
   },
@@ -40,7 +40,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Torta de Maçã",
     category: "Sobremesas",
     price: 6.99,
-    img: "torta-maca.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Torta%20de%20Ma%C3%A7%C3%A3.jpg?raw=true",
     description:
       "Uma deliciosa torta de maçã caseira com uma crosta de massa folhada.",
   },
@@ -49,7 +49,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Lasanha de Frango",
     category: "Massas",
     price: 11.99,
-    img: "lasanha-frango.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Lasanha%20de%20Frango.jpg?raw=true",
     description:
       "Uma lasanha deliciosa feita com camadas de massa, molho de tomate, queijo e frango desfiado.",
   },
@@ -58,7 +58,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Sorvete de Chocolate",
     category: "Sobremesas",
     price: 4.99,
-    img: "sorvete-chocolate.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Sorvete%20de%20Chocolate.jpg?raw=true",
     description:
       "Uma sobremesa refrescante com sorvete de chocolate e cobertura de calda de chocolate.",
   },
@@ -67,7 +67,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Pizza Vegetariana",
     category: "Pizza e Hamburguer",
     price: 13.99,
-    img: "pizza-vegetariana.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Pizza%20Vegetariana.jpg?raw=true",
     description:
       "Uma pizza vegetariana com molho de tomate, queijo, pimentão, cogumelos e azeitonas.",
   },
@@ -76,7 +76,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Cheeseburger Duplo",
     category: "Pizza e Hamburguer",
     price: 11.99,
-    img: "cheeseburger-duplo.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Cheeseburger%20Duplo.png?raw=true",
     description:
       "Um hambúrguer duplo com queijo, alface, tomate e maionese especial.",
   },
@@ -85,7 +85,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Sushi Variado",
     category: "Outros Pratos",
     price: 15.99,
-    img: "sushi-variado.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Sushi%20Variado.jpg?raw=true",
     description:
       "Um conjunto de sushi fresco, incluindo nigiri, sashimi e rolos de maki.",
   },
@@ -94,7 +94,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Salada César",
     category: "Outros Pratos",
     price: 7.99,
-    img: "salada-cesar.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Salada%20C%C3%A9sar.jpg?raw=true",
     description:
       "Uma salada fresca com alface romana, croutons, queijo parmesão e molho Caesar.",
   },
@@ -103,7 +103,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Tacos de Camarão",
     category: "Outros Pratos",
     price: 11.99,
-    img: "tacos-camarao.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Tacos%20de%20Camar%C3%A3o.jpg?raw=true",
     description:
       "Tacos de camarão grelhado com abacate, coentro e molho picante.",
   },
@@ -112,7 +112,7 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Sopa de Tomate",
     category: "Outros Pratos",
     price: 5.99,
-    img: "sopa-tomate.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Sopa%20de%20Tomate.jpg?raw=true",
     description: "Uma sopa de tomate caseira com manjericão e croutons.",
   },
   {
@@ -120,16 +120,17 @@ export const AllFoods: PropsAllFoods[] = [
     title: "Salmão Grelhado",
     category: "Outros Pratos",
     price: 14.99,
-    img: "salmao-grelhado.jpg",
+    img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Salm%C3%A3o%20Grelhado.jpg?raw=true",
     description:
       "Filé de salmão grelhado servido com legumes frescos e molho de limão.",
   },
   {
     id: 14,
-    title: "Torta de Limão",
-    category: "sobremesa",
-    price: 8.99,
-    img: "torta-limao.jpg",
-    description: "Uma deliciosa torta de limão caseira com uma crosta de massa folhada."
-  },
+  title: "Torta de Limão",
+  category: "Sobremesas",
+  price: 8.99,
+  img: "https://github.com/JoaoBonfimMeireles/Menu-Restaurant/blob/main/public/assets/Torta%20de%20Lim%C3%A3o.jpg?raw=true",
+  description: "Uma deliciosa torta de limão caseira com uma crosta de massa folhada."
+},
 ];
+

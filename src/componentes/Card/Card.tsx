@@ -1,24 +1,30 @@
 import { PropsAllFoods } from "../../Data/Data"
+import "./style.css"
 
 interface PropsFood {
     food: PropsAllFoods[];
 }
 
+let RealPrice = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+  });
+
 function Card({food}: PropsFood) {
     return(
         <div>
-            <div>
+            <div  className="box-card">
                 {food.map((test) => (
-                    <div key={test.id}>
+                    <div key={test.id} className="box-items">
                         <div>
                             <img src={test.img} alt={test.title} />
                         </div>
                         <div>
                             <div>
-                                {test.title} -- {test.price}
+                                <span>{test.title}</span> -- <span>{RealPrice.format(test.price)}</span>
                             </div>
                             <div>
-                                {test.description}
+                                <p>{test.description}</p>
                             </div>
                         </div>
                     </div>
