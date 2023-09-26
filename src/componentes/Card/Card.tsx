@@ -19,7 +19,7 @@ function Card({food}: PropsFood) {
                         <div>
                             <img src={test.img} alt={test.title} />
                         </div>
-                        <div>
+                        <div className="box-text">
                             <div>
                                 <span>{test.title}</span> -- <span>{RealPrice.format(test.price)}</span>
                             </div>
