@@ -9,7 +9,7 @@
 
 ## ⚙️ Como rodar o projeto:
 
-- Clonar o projeto usando SSH e é necessário executar o comando: git@github.com:JoaoBonfimMeireles/githubAPI.git
+- Clonar o projeto usando SSH e é necessário executar o comando: git@github.com:JoaoBonfimMeireles/menu-Restaurant.git
 - Instalar as dependências: yarn ou npm install (caso a pessoa use o npm)
 
 Feito isso, basta usar o comando yarn start ou npm start (caso a pessoa use o npm) e será aberta uma página web com o projeto.
@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto:
 
-GitHub API com input de pesquisa.
+Cardápio de restaurante.
 
 ---
 
