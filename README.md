@@ -20,6 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React
 - TypeScript
+- JavaScript
 - Git e Github
 - HTML e CSS
 
