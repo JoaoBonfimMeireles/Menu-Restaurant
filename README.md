@@ -3,8 +3,8 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="/public/assets/normal.png" width="48%" height="17rem">
-    <img alt="projeto DevLinks" src="/public/assets/select.png" width="48%" height="17rem">
+  <img alt="projeto DevLinks" src="/public/assets/normal.png" width="48%" height="280px">
+    <img alt="projeto DevLinks" src="/public/assets/select.png" width="48%" height="280px">
 </p>
 
 ## ⚙️ Como rodar o projeto:
